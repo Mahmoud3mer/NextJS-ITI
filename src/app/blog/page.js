@@ -20,11 +20,16 @@ const Blog = async() => {
     // const db = client.db('MyPosts');
     // const posts = await db.collection('Posts').find({}).toArray();
 
-    const posts = await allPosts;
+    // const posts = await allPosts;
 
     // post by id
-    const post = await postById;
-    console.log(post)
+    // const post = await postById;
+    // console.log(post)
+
+    // ! Lab 3  get data using custom api
+    const data = await fetch("http://localhost:3000/api/products")
+    const posts = await data.json();
+    console.log(posts)
     
     return(
         <div>
