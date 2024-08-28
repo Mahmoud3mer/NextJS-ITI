@@ -1,5 +1,5 @@
 
-import { MongoClient } from "mongodb";
+// import { MongoClient } from "mongodb";
 
 // export async function GET(request) {
 //     const data = await fetch("https://fakestoreapi.com/products");

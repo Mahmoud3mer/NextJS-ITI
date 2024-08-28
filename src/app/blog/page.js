@@ -1,8 +1,8 @@
 import Card from "@/components/card/card";
-import allPosts from "@/lib/fetchAllPosts";
-import postById from "@/lib/fetchPostById";
-import clientPromise from "@/lib/mongodb";
-import { MongoClient } from "mongodb";
+// import allPosts from "@/lib/fetchAllPosts";
+// import postById from "@/lib/fetchPostById";
+// import clientPromise from "@/lib/mongodb";
+// import { MongoClient } from "mongodb";
 import React from "react";
 
 export const metadata ={
