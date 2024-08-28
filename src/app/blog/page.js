@@ -10,9 +10,9 @@ export const metadata ={
 }
 
 const Blog = async() => {
-    const data = await fetch("https://jsonplaceholder.typicode.com/posts")
-    const posts = await data.json();
-    console.log(posts)
+    // const data = await fetch("https://jsonplaceholder.typicode.com/posts")
+    // const posts = await data.json();
+    // console.log(posts)
 
     // ! Using monogo database
     // const mongoClint = new MongoClient("mongodb://localhost:27017/");
@@ -33,7 +33,7 @@ const Blog = async() => {
     
     return(
         <div>
-            {posts.map((post) => (
+            {/* {posts.map((post) => (
                 <Card
                     key={post.id}
                     title={post.title}
@@ -41,7 +41,7 @@ const Blog = async() => {
                     userID={post.userId}
                     id={post.id}
                 />
-            ))}
+            ))} */}
         </div>
     )
 }
