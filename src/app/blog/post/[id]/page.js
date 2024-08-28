@@ -7,8 +7,16 @@ const Post = (props) => {
     const[postId ,setPostId] = useState(props.params.id)
     const[post, setPost] = useState({});
 
+    // useEffect(() => {
+    //     fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
+    //     .then((res) => res.json())
+    //     .then((data) => setPost(data))
+    //     .catch((error) => console.error("Error fetching post:", error)); 
+    // },[postId])
+
+    // ! Lab 3
     useEffect(() => {
-        fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
+        fetch(`https://fakestoreapi.com/products/${postId}`)
         .then((res) => res.json())
         .then((data) => setPost(data))
         .catch((error) => console.error("Error fetching post:", error)); 

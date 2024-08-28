@@ -17,6 +17,7 @@ const Header = () => {
                 <Link href="/aboutus" className={`px-3 py-2 me-2 hover:text-red-600 hover:bg-cyan-200 rounded-md ${path =="/aboutus"? "text-red-600 bg-cyan-200 rounded-md" : ""}`}>Aboutus</Link>
                 <Link href="/contactus" className={`px-3 py-2 me-2 hover:text-red-600 hover:bg-cyan-200 rounded-md ${path =="/contactus"? "text-red-600 bg-cyan-200 rounded-md" : ""}`}>Contactus</Link>
                 <Link href="/blog" className={`px-3 py-2 me-2 hover:text-red-600 hover:bg-cyan-200 rounded-md ${path =="/blog"? "text-red-600 bg-cyan-200 rounded-md" : ""}`}>Blog</Link>
+                <Link href="/blog/post/add" className={`px-3 py-2 me-2 hover:text-red-600 hover:bg-cyan-200 rounded-md ${path =="/blog"? "text-red-600 bg-cyan-200 rounded-md" : ""}`}>Add Post</Link>
                 <Link href="/products" className={`px-3 py-2 me-2 hover:text-red-600 hover:bg-cyan-200 rounded-md ${path =="/products"? "text-red-600 bg-cyan-200 rounded-md" : ""}`}>Products</Link>
             </div>
             {/* <Link href="/login" >Login</Link> */}
