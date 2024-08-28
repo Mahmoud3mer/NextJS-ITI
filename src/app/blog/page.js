@@ -10,9 +10,9 @@ export const metadata ={
 }
 
 const Blog = async() => {
-    // const data = await fetch("https://jsonplaceholder.typicode.com/posts")
-    // const posts = await data.json();
-    // console.log(posts)
+    const data = await fetch("https://jsonplaceholder.typicode.com/posts")
+    const posts = await data.json();
+    console.log(posts)
 
     // ! Using monogo database
     // const mongoClint = new MongoClient("mongodb://localhost:27017/");
@@ -27,9 +27,9 @@ const Blog = async() => {
     // console.log(post)
 
     // ! Lab 3  get data using custom api
-    const data = await fetch("http://localhost:3000/api/products")
-    const posts = await data.json();
-    console.log(posts)
+    // const data = await fetch("http://localhost:3000/api/products")
+    // const posts = await data.json();
+    // console.log(posts)
     
     return(
         <div>
