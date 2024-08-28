@@ -1,8 +1,8 @@
 import Card from "@/components/card/card";
-import allPosts from "@/lib/fetchAllPosts";
-import postById from "@/lib/fetchPostById";
-import clientPromise from "@/lib/mongodb";
-import { MongoClient } from "mongodb";
+// import allPosts from "@/lib/fetchAllPosts";
+// import postById from "@/lib/fetchPostById";
+// import clientPromise from "@/lib/mongodb";
+// import { MongoClient } from "mongodb";
 import React from "react";
 
 export const metadata ={
@@ -27,13 +27,13 @@ const Blog = async() => {
     // console.log(post)
 
     // ! Lab 3  get data using custom api
-    const data = await fetch("http://localhost:3000/api/products")
-    const posts = await data.json();
-    console.log(posts)
+    // const data = await fetch("http://localhost:3000/api/products")
+    // const posts = await data.json();
+    // console.log(posts)
     
     return(
         <div>
-            {posts.map((post) => (
+            {/* {posts.map((post) => (
                 <Card
                     key={post.id}
                     title={post.title}
@@ -41,7 +41,7 @@ const Blog = async() => {
                     userID={post.userId}
                     id={post.id}
                 />
-            ))}
+            ))} */}
         </div>
     )
 }

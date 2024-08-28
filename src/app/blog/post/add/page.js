@@ -13,15 +13,15 @@ function Add() {
 
     const submitData = async (e) => {
         e.preventDefault();
-        const res = await fetch("http://localhost:3000/api/products",{
-            method: "POST",
-            headers: {
-                Accept: "application/json"
-            },
-            body: JSON.stringify(formData)
-        })
+        // const res = await fetch("http://localhost:3000/api/products",{
+        //     method: "POST",
+        //     headers: {
+        //         Accept: "application/json"
+        //     },
+        //     body: JSON.stringify(formData)
+        // })
 
-        console.log(res)
+        // console.log(res)
     }
 
     return (

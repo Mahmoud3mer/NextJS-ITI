@@ -1,6 +1,6 @@
-import { MongoClient } from "mongodb";
+// import { MongoClient } from "mongodb";
 
-const mongoClint = new MongoClient("mongodb://localhost:27017/");
-const clientPromise = mongoClint.connect();
+// const mongoClint = new MongoClient("mongodb://localhost:27017/");
+// const clientPromise = mongoClint.connect();
 
-export default clientPromise;
+// export default clientPromise;

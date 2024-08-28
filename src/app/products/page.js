@@ -12,19 +12,19 @@ const Products = async() => {
     // })
 
     // ! 2- SSG
-    const data = await fetch("https://fakestoreapi.com/products")
+    // const data = await fetch("https://fakestoreapi.com/products")
 
     // ! 3- ISR 
     // const data = await fetch("https://fakestoreapi.com/products",{
     //     revalidate: 60
     // })
 
-    const posts = await data.json();
-    console.log(posts)
+    // const posts = await data.json();
+    // console.log(posts)
     
     return(
         <div>
-            {posts.map((post) => (
+            {/* {posts.map((post) => (
                 <ProductCard
                     key={post.id}
                     title={post.title}
@@ -32,7 +32,7 @@ const Products = async() => {
                     image={post.image}
                     price={post.price}
                 />
-            ))}
+            ))} */}
         </div>
     )
 }
